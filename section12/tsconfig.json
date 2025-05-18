@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "CommonJS",
+        "strict": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "esModuleInterop": true, // 임포트 오류 해결
+        "jsx": "react-jsx", // jsx 문법을 해석할 수 있도록
+    },
+    "include": ["src"]
+}
